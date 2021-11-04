@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Travel Agency</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./assets/js/script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header__logo">
+      <h1><a href="#"><img src="./assets/images/plane.png" alt="plane logo">Travel Agency</a></h1>
+    </div>
+    <div class="header__nav__burger--open">
+      <img src="./assets/images/menu.png" class="header__nav__burger--icon" alt="Menu">
+    </div>
+    <nav class="header__nav">
+      <div class="header__nav__burger--close">
+        <img src="./assets/images/menu-close.png" class="header__nav__burger--icon" alt="Menu close">
+      </div>
+      <ul>
+        <li><a href="#" class="header__nav--active">Home</a></li>
+        <li><a href="#">Destinations</a>
+          <ul class="header__sub-nav">
+            <li><a href="#">France</a></li>
+            <li><a href="#">Russia</a></li>
+            <li><a href="#">Australia</a></li>
+            <li><a href="#">Japan</a></li>
+            <li><a href="#">China</a></li>
+            <li><a href="#">USA</a></li>
+            <li><a href="#">Spain</a></li>
+            <li><a href="#" class="header__sub-nav--see-more">See more</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Deals</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="home-section-1">
+      <section class="search">
+        <h2>Find your holiday</h2>
+        <form action="#" method="post">
+          <div class="search-inputs">
+            <div>
+              <span>From :</span>
+              <input type="text" name="from" placeholder="Paris">
+            </div>
+            <div>
+              <span>To :</span>
+              <input type="text" name="to" placeholder="Malte">
+            </div>
+            <div>
+              <span>Date :</span>
+              <input type="text" name="date" placeholder="04/11/2018">
+            </div>
+            <div>
+              <span>Duration :</span>
+              <select name="duration">
+                <option value="3d">3 days</option>
+                <option value="1w">1 week</option>
+                <option value="2w">2 week</option>
+                <option value="3w">3 week</option>
+              </select>
+            </div>
+            <input type="submit" value="Find !">
+          </div>
+        </form>
+      </section>
+      <section class="top-deal" style="background-image: url('https://picsum.photos/1200/800?image=164')">
+        <a href="#">
+          <div class="top-deal__content">
+            <h2>Deal of the day</h2>
+            <div class="top-deal__content-bottom">
+              <span class="top-deal__city">Amsterdam</span>
+              <span class="top-deal__info">Hotel Calypso</span>
+              <span class="top-deal__duration">1 week</span>
+            </div>
+            <span class="top-deal__content-price">150€</span>
+          </div>
+        </a>
+      </section>
+    </section>
+    <section class="home-section-2">
+      <h2>Top destinations</h2>
+      <div class="destinations">
+        <!-- start destination -->
+        <div class="destination">
+          <div class="destination__background" style="background-image: url('https://picsum.photos/1200/800?image=1067')">
+            <a href="#">
+              <div class="destination__content">
+                <h3 class="destination__city">Sydney</h3>
+                <div class="destination__content-bottom">
+                  <span class="destination__info">Hotel Calypso</span>
+                  <span class="destination__duration">1 week</span>
+                </div>
+                <span class="destination__content-price">150€</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- end destination -->
+        <!-- start destination -->
+        <div class="destination">
+          <div class="destination__background" style="background-image: url('https://picsum.photos/1200/800?image=993')">
+            <a href="#">
+              <div class="destination__content">
+                <h3 class="destination__city">Rio</h3>
+                <div class="destination__content-bottom">
+                  <span class="destination__info">Hotel Calypso</span>
+                  <span class="destination__duration">1 week</span>
+                </div>
+                <span class="destination__content-price">150€</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- end destination -->
+        <!-- start destination -->
+        <div class="destination">
+          <div class="destination__background" style="background-image: url('https://picsum.photos/1200/800?image=990')">
+            <a href="#">
+              <div class="destination__content">
+                <h3 class="destination__city">Cusco</h3>
+                <div class="destination__content-bottom">
+                  <span class="destination__info">Hotel Calypso</span>
+                  <span class="destination__duration">1 week</span>
+                </div>
+                <span class="destination__content-price">150€</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- end destination -->
+        <!-- start destination -->
+        <div class="destination">
+          <div class="destination__background" style="background-image: url('https://picsum.photos/1200/800?image=984')">
+            <a href="#">
+              <div class="destination__content">
+                <h3 class="destination__city">New Delhi</h3>
+                <div class="destination__content-bottom">
+                  <span class="destination__info">Hotel Calypso</span>
+                  <span class="destination__duration">1 week</span>
+                </div>
+                <span class="destination__content-price">150€</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- end destination -->
+        <!-- start destination -->
+        <div class="destination">
+          <div class="destination__background" style="background-image: url('https://picsum.photos/1200/800?image=944')">
+            <a href="#">
+              <div class="destination__content">
+                <h3 class="destination__city">Hong Kong</h3>
+                <div class="destination__content-bottom">
+                  <span class="destination__info">Hotel Calypso</span>
+                  <span class="destination__duration">1 week</span>
+                </div>
+                <span class="destination__content-price">150€</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- end destination -->
+        <!-- start destination -->
+        <div class="destination">
+          <div class="destination__background" style="background-image: url('https://picsum.photos/1200/800?image=929')">
+            <a href="#">
+              <div class="destination__content">
+                <h3 class="destination__city">Katmandou</h3>
+                <div class="destination__content-bottom">
+                  <span class="destination__info">Hotel Calypso</span>
+                  <span class="destination__duration">1 week</span>
+                </div>
+                <span class="destination__content-price">150€</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- end destination -->
+        <!-- start destination -->
+        <div class="destination">
+          <div class="destination__background" style="background-image: url('https://picsum.photos/1200/800?image=896')">
+            <a href="#">
+              <div class="destination__content">
+                <h3 class="destination__city">Tokyo</h3>
+                <div class="destination__content-bottom">
+                  <span class="destination__info">Hotel Calypso</span>
+                  <span class="destination__duration">1 week</span>
+                </div>
+                <span class="destination__content-price">150€</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- end destination -->
+        <!-- start destination -->
+        <div class="destination">
+          <div class="destination__background" style="background-image: url('https://picsum.photos/1200/800?image=867')">
+            <a href="#">
+              <div class="destination__content">
+                <h3 class="destination__city">Lisbonne</h3>
+                <div class="destination__content-bottom">
+                  <span class="destination__info">Hotel Calypso</span>
+                  <span class="destination__duration">1 week</span>
+                </div>
+                <span class="destination__content-price">150€</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- end destination -->
+      </div>
+      <div class="destination__see-more">
+        <button type="button">See more</button>
+      </div>
+    </section>
+    <section class="home-section-3">
+      <div class="ecommerce-icons">
+        <div class="ecommerce-icon">
+          <img src="./assets/images/calculator.png" alt="calculator">
+          <span>Compare prices</span>
+        </div>
+        <div class="ecommerce-icon">
+          <img src="./assets/images/discount.png" alt="discount">
+          <span>Get the best deals</span>
+        </div>
+        <div class="ecommerce-icon">
+          <img src="./assets/images/support.png" alt="support">
+          <span>7/7 support</span>
+        </div>
+        <div class="ecommerce-icon">
+          <img src="./assets/images/online-payment.png" alt="online-payment">
+          <span>Secure online payment</span>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <section>
+        <h3>Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Destinations</a></li>
+          <li><a href="#">Deals</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </section>
+      <section>
+        <h3>Address</h3>
+        <p>
+          15 rue de la paix
+          <br>
+          75010, Paris
+          <br>
+          France
+          <br>
+          <a href="#">Other addresses</a>
+        </p>
+      </section>
+      <section class="footer__call">
+        <h3>Call Us</h3>
+        <span>+1 0805-540-801</span>
+      </section>
+    </footer>
+  </main>
+</body>
+</html>
